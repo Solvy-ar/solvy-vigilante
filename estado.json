@@ -1,1 +1,70 @@
-{ "chequeos": {}, "historial": [] }
+{
+  "chequeos": {
+    "inicio": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Página de inicio",
+      "detalle": "responde",
+      "ultimo": 1790170493059
+    },
+    "buscar": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Buscador",
+      "detalle": "responde",
+      "ultimo": 1790170493059
+    },
+    "registro": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Registro (adonde lleva el anuncio)",
+      "detalle": "responde",
+      "ultimo": 1790170493059
+    },
+    "login": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Ingreso",
+      "detalle": "responde",
+      "ultimo": 1790170493059
+    },
+    "salud": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Servidor y base de datos",
+      "detalle": "ok",
+      "ultimo": 1790170493059
+    },
+    "rubros": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Rubros (web y app)",
+      "detalle": "20 resultados",
+      "ultimo": 1790170493059
+    },
+    "profesionales": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Lista de profesionales (web y app)",
+      "detalle": "22 resultados",
+      "ultimo": 1790170493059
+    },
+    "certificado": {
+      "ok": true,
+      "fallasSeguidas": 0,
+      "avisado": false,
+      "titulo": "Certificado de seguridad (candado)",
+      "detalle": "vence en 74 días",
+      "ultimo": 1790170493059
+    }
+  },
+  "historial": [],
+  "ultimaRevision": "2026-09-23T13:34:53.123Z"
+}
