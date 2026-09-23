@@ -1,0 +1,40 @@
+name: Vigilante Solvy
+
+# El cron de alta frecuencia de GitHub no es confiable: se dispara una vez por
+# hora y cada corrida se queda 5 h 30 barriendo cada 3 minutos. La corrida nueva
+# reemplaza a la vieja (cancel-in-progress) sin dejar hueco.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      duracion_min:
+        description: "Minutos que se queda barriendo (1 = una sola vuelta de prueba)"
+        default: "330"
+
+concurrency:
+  group: vigilante
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Configurar git (para guardar estado.json)
+        run: |
+          git config user.name "solvy-vigilante"
+          git config user.email "vigilante@solvy.ar"
+      - name: Vigilar
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          AVISAR_A: ${{ secrets.AVISAR_A }}
+          DURACION_MIN: ${{ github.event.inputs.duracion_min || '330' }}
+        run: node vigilante.mjs
