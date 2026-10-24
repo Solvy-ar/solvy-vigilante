@@ -6,7 +6,7 @@
       "avisado": false,
       "titulo": "Página de inicio",
       "detalle": "responde",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "buscar": {
       "ok": true,
@@ -14,7 +14,7 @@
       "avisado": false,
       "titulo": "Buscador",
       "detalle": "responde",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "registro": {
       "ok": true,
@@ -22,7 +22,7 @@
       "avisado": false,
       "titulo": "Registro (adonde lleva el anuncio)",
       "detalle": "responde",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "login": {
       "ok": true,
@@ -30,7 +30,7 @@
       "avisado": false,
       "titulo": "Ingreso",
       "detalle": "responde",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "salud": {
       "ok": true,
@@ -38,7 +38,7 @@
       "avisado": false,
       "titulo": "Servidor y base de datos",
       "detalle": "ok",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "rubros": {
       "ok": true,
@@ -46,7 +46,7 @@
       "avisado": false,
       "titulo": "Rubros (web y app)",
       "detalle": "20 resultados",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "profesionales": {
       "ok": true,
@@ -54,17 +54,17 @@
       "avisado": false,
       "titulo": "Lista de profesionales (web y app)",
       "detalle": "100 resultados",
-      "ultimo": 1792852739707
+      "ultimo": 1792856372479
     },
     "certificado": {
       "ok": true,
       "fallasSeguidas": 0,
       "avisado": false,
       "titulo": "Certificado de seguridad (candado)",
-      "detalle": "vence en 43 días",
-      "ultimo": 1792852739707
+      "detalle": "vence en 42 días",
+      "ultimo": 1792856372479
     }
   },
   "historial": [],
-  "ultimaRevision": "2026-10-24T14:38:59.708Z"
+  "ultimaRevision": "2026-10-24T15:39:32.480Z"
 }
